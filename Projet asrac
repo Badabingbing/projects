@@ -1,0 +1,39 @@
+Scenario: Visualisation de la page X
+	Etant donné que je suis "visiteur"
+	Quand j'accède à la page X
+	Alors je vois son contenu
+
+Scenario: Pouvoir s'inscrire
+	Etant donné que je suis "visiteur"
+	Quand j'accède à la page "inscription"
+	Alors je peux m'inscrire
+
+Scenario: S'inscrire
+	Etant donné que je suis sur la page "inscription"
+	Quand j'entre mes "informations"
+	Alors je suis "inscrit"
+
+Scenario: Pouvoir contacter le staff
+	Etant donné que je suis "visiteur"
+	Quand j'accède à la page "contact"
+	Alors je peux remplir le formulaire
+
+Scenario: Envoi formulaire contact
+	Etant donné que je suis sur la page "contact"
+	Quand je remplis le formulaire
+	Alors je peux envoyer le formulaire
+
+Scenario: Dialogue avec un élu
+	Etant donné qu'il y a un "evenement dialogue"
+	Quand je suis sur la page "chat"
+	Alors je peux "dialoguer"
+
+Scenario: Naviguer sur le forum
+	Etant donné que je suis sur la page "forum"
+	
+
+
+
+
+
+
