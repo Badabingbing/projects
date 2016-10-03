@@ -32,19 +32,28 @@ main {
 .icone{
     color:#FF5600;
 }
-.content{
-    height:500px;
-}
+
+
+
+
+
+
+/* footer */
 .footer{
    background-color: #00AA72;
-}
-.SocialIcone{
     padding-top:25px;
 }
+
 .copyright{
     color:#FEFEC5;
 }
 .copyright p{
     margin:0px;
 }
-
+.portrait{
+    background-image:url("../images/portrait.jpg");
+    height:140px;
+}
+.presentation{
+    color:#FEFEC5;
+}
