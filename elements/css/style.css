@@ -20,12 +20,14 @@ couleur tertiaire (background) : #FEFEC5*/
 	margin: auto;
 }
 
-article{
+.article2{
+	height: 350px;
 	width: 100%;
 }
 
-.article{
-	margin-top: 60px;	
+.article1{
+	margin-top: 60px;
+	padding-left: 60px;
 }
 
 .hidden_content {
@@ -44,7 +46,7 @@ article{
 	width: 150px;
 	float: right;
 	margin-top: 80px;
-
+}
 
 
 main {
@@ -90,4 +92,10 @@ main {
 }
 .presentation{
     color:#FEFEC5;
+}
+#presentation1 {
+	display: block;
+}
+article {
+	display: none;
 }
