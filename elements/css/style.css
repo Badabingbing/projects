@@ -25,13 +25,10 @@ main {
 	height: 1500px; /*A MODIFIER LORS DU MERGE*/
 }
 
-.EventMomment img{
-	width: 100%;
-}
 .EventMomment{
-	background-color:#00AA72 ;
-	margin-top: 10px;
-	padding-bottom: 10px;
+	/*background-color:#00AA72;
+	margin-top: 10px;*/
+	padding-bottom: 20px;
 }
 
 
