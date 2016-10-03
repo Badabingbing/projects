@@ -1,6 +1,7 @@
 /*couleur principale : #FF5600
 couleur secondaire : #00AA72
 couleur tertiaire (background) : #FEFEC5*/
+
 .nomargin{
     margin:0px;
 }
@@ -10,6 +11,7 @@ couleur tertiaire (background) : #FEFEC5*/
 .navbar-default .navbar-brand:hover{
     color: #00AA72;
 }
+
 
 /****article********/
 article{
@@ -36,4 +38,49 @@ article{
 	float: right;
 	margin-top: 80px;
 
+
+
+main {
+	margin-top: 75px;
+	height: 1500px; /*A MODIFIER LORS DU MERGE*/
+}
+.EventMomment img{
+	float: right;
+	width: 200px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color:#00AA72;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color:#FF5600;
+}
+.icone{
+    color:#FF5600;
+}
+
+
+
+
+
+
+/* footer */
+.footer{
+   background-color: #00AA72;
+    padding-top:25px;
+}
+
+.copyright{
+    color:#FEFEC5;
+}
+.copyright p{
+    margin:0px;
+}
+.portrait{
+    background-image:url("../images/portrait.jpg");
+    height:140px;
+}
+.presentation{
+    color:#FEFEC5;
 }
