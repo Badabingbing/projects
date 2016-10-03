@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+
+    <title>Document</title>
+
+<!---Meta-->
+
+<meta charset="utf-8" author="Annie-line Valentin Juliette Abdul Jean-Christian"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!---BOOSTRAP-->
+
+<link rel="stylesheet" type="text/css" href="elements/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="elements/css/bootstrap.css"/>
+<script src="elements/js/jquery.js"></script>
+<script src="elements/js/bootstrap.min.js"></script>
+<script src="elements/js/npm.min.js"></script>
+
+<!--ANIMATE.CSS-->
+
+<link rel="stylesheet" href="elements/css/animate.min.css">
+
+<!--FONT AWESOME-->
+
+<link href="elements/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+
+<!---CSS-->
+
+<link rel="stylesheet" type="text/css" href="elements/css/style.css">
+<link rel="stylesheet" type="text/css" href="elements/css/contact.css">
+
+</head>
+<body>
+
+    <div class=" container-fluid">
+        <header class="row nomargin">
+            <nav class="navbar navbar-default navbar-fixed-top col-md-12">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MenuNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Nom_Site</a>
+                </div>
+                <div class="collapse navbar-collapse" id="MenuNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Connexion/Deconnexion</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--formulaire de contact-->
+    <div id="contact" class="container">
+        <form class="formulaire" action=" " method="post"  id="contact_form">
+            <fieldset>
+            <!-- Form Name -->
+            <legend>Contactez nous</legend>
+
+            <!--Input nom-->
+            <div class="col-md-6 col-md-offset-1">
+            <div class="form-group">
+                <label class="col-md-4 control-label">Votre nom</label>
+                <div class="col-md-8 inputGroupContainer">
+                    <div class="input-group">
+                        <input  name="nom" placeholder="nom" class="form-control"  type="text">
+                    </div>
+                </div>
+            </div>
+
+            <!--Input prénom-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" >Votre prénom</label>
+                <div class="col-md-8 inputGroupContainer">
+                    <div class="input-group">
+                        <input name="prénom" placeholder="prénom" class="form-control"  type="text">
+                    </div>
+                </div>
+            </div>
+
+            <!--Input age-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" >Votre age</label>
+                <div class="col-md-8 inputGroupContainer">
+                    <div class="input-group">
+                        <input name="age" placeholder="age" class="form-control"  type="text">
+                    </div>
+                </div>
+            </div>
+
+            <!--Input mail-->
+            <div class="form-group">
+                <label class="col-md-4 control-label">E-Mail</label>
+                <div class="col-md-8 inputGroupContainer">
+                    <div class="input-group">
+                        <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Input téléphone-->
+            <div class="form-group">
+                <label class="col-md-4 control-label">Votre numéro de téléphone</label>
+                <div class="col-md-8 inputGroupContainer">
+                    <div class="input-group">
+                        <input name="phone" placeholder="0666666666" class="form-control" type="text">
+                    </div>
+                </div>
+            </div>
+            </div>
+
+                <!-- choix sexe -->
+                <div class="col-md-5">
+                <div class="form-group">
+                        <label class="col-md-4 control-label">Votre sexe?</label>
+                        <div class="col-md-8">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="homme" value="H" /> H
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="Femme" value="F" /> F
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Input adresse-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Votre adresse</label>
+                    <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                            <input name="addresse" placeholder="Adresse" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Message -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Votre message</label>
+                    <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                            <textarea class="form-control" name="message" placeholder="message">
+                            </textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Envoyer -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label"></label>
+                    <div class="col-md-8">
+                        <button type="submit" class="btn btn-default" id="button">Envoyer </button>
+                    </div>
+                </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    </div>
+
+
+        <!-- fin de votr partie -->
+
+    <footer class="row footer">
+       <div class="col-md-12">
+       <article id="presentation1" class="col-md-9">
+        <div class="col-md-offset-1 col-md-3 portrait img-circle">
+         </div>
+         <div class="col-md-offset-1 col-md-7 presentation">
+            <div class="col-md-1"></div>
+             <h4 class="col-md-10 text-center">Jane Doe</h4>
+                <div class="col-md-1"><button class="suivant"><i class="fa fa-arrow-right" aria-hidden="true"></i></button> </div>
+
+             <h5 class="col-md-12 text-center"> Ministre de la raclette</h5>
+             <div class="col-md-8 col-md-offset-2"><hr></hr></div>
+             <div class="col-md-12">
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corporis, dolorum sed eius fugiat pariatur explicabo ut, dicta, nihil quibusdam rerum! Est, porro, officia. Totam delectus minima tempore eveniet voluptatibus.</p></div>
+         </div>
+        </article>
+        <article id="presentation2" class="col-md-9 none">
+        <div class="col-md-offset-1 col-md-3 portrait img-circle">
+         </div>
+         <div class="col-md-offset-1 col-md-7 presentation">
+            <div class="col-md-1"><button class="precedent"><i class="fa fa-arrow-left" aria-hidden="true"></i></button></div>
+             <h4 class="col-md-10 text-center">John Doe</h4>
+                <div class="col-md-1"><button class="suivant"><i class="fa fa-arrow-right" aria-hidden="true"></i></button> </div>
+
+             <h5 class="col-md-12 text-center"> Ministre de la raclette</h5>
+             <div class="col-md-8 col-md-offset-2"><hr></hr></div>
+             <div class="col-md-12">
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corporis, dolorum sed eius fugiat pariatur explicabo ut, dicta, nihil quibusdam rerum! Est, porro, officia. Totam delectus minima tempore eveniet voluptatibus.</p></div>
+         </div>
+        </article>
+
+        <div class="col-md-2 col-md-offset-1">
+                <div class="list-group">
+                    <a class="list-group-item" href="#"><i class="icone fa fa-users" aria-hidden="true"></i>
+&nbsp;Notre equipe</a>
+                    <a class="list-group-item" href="#"><i class="icone fa fa-twitter-square" aria-hidden="true"></i>
+
+&nbsp; Twitter</a>
+                    <a class="list-group-item" href="#"><i class="icone fa fa-facebook-official" aria-hidden="true"></i>
+
+&nbsp;Facebook</a>
+                    <a class="list-group-item" href="#"><i class="icone fa fa-envelope-o" aria-hidden="true"></i>
+
+&nbsp; Contactez-nous</a>
+                </div>
+        </div>
+        </div>
+        <div class="col-md-12 copyright"><p>Site crée par la CodeAcademie</p></div>
+    </footer>
+
+ </div>
+    
+</body>
+</html>
