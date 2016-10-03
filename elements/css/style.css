@@ -1,0 +1,17 @@
+body {
+	margin: auto;
+	max-width: 70em;
+}
+
+.article {
+	margin-top: 100px;
+}
+
+.article_title {
+	padding-bottom: 30px;
+}
+
+.article_image {
+	padding-left: 30px;
+	padding-top: 30px;
+}
