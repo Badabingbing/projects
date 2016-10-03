@@ -10,3 +10,21 @@ couleur tertiaire (background) : #FEFEC5*/
 .navbar-default .navbar-brand:hover{
     color: #00AA72;
 }
+
+/****article********/
+#article_style{
+	height: 350px;
+	width: 100%;
+
+}
+
+.article{
+	margin-top: 60px;
+}
+.img{
+	height: 150px;
+	width: 150px;
+	float: right;
+	margin-top: 80px;
+
+}
