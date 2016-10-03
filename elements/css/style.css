@@ -15,6 +15,7 @@ couleur tertiaire (background) : #FEFEC5*/
 
 /****article********/
 
+
 .layout {
 	max-width: 80em;
 	margin: auto;
@@ -22,6 +23,7 @@ couleur tertiaire (background) : #FEFEC5*/
 
 .article2{
 	height: 350px;
+
 	width: 100%;
 }
 
@@ -50,6 +52,10 @@ couleur tertiaire (background) : #FEFEC5*/
 	width: 150px;
 	float: right;
 	margin-top: 80px;
+}
+
+.lire_plus h4{
+	float: right;
 }
 
 
@@ -86,6 +92,7 @@ main {
 
 .copyright{
     color:#FEFEC5;
+    margin-top:20px;
 }
 .copyright p{
     margin:0px;
@@ -101,3 +108,9 @@ main {
 	display: block;
 }
 
+.none {
+	display: none;
+}
+.presentation i{
+    color:#FF5600;
+}
