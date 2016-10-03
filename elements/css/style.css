@@ -12,6 +12,7 @@ couleur tertiaire (background) : #FEFEC5*/
     color: #00AA72;
 }
 
+
 main {
 	margin-top: 75px;
 	height: 1500px; /*A MODIFIER LORS DU MERGE*/
@@ -19,5 +20,31 @@ main {
 .EventMomment img{
 	float: right;
 	width: 200px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color:#00AA72;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color:#FF5600;
+}
+.icone{
+    color:#FF5600;
+}
+.content{
+    height:500px;
+}
+.footer{
+   background-color: #00AA72;
+}
+.SocialIcone{
+    padding-top:25px;
+}
+.copyright{
+    color:#FEFEC5;
+}
+.copyright p{
+    margin:0px;
 }
 
