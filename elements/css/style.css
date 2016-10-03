@@ -14,13 +14,13 @@ couleur tertiaire (background) : #FEFEC5*/
 
 
 /****article********/
-article{
+.article2{
 	height: 350px;
 	width: 100%;
 
 }
 
-.article{
+.article1{
 	margin-top: 60px;
 	padding-left: 60px;
 
@@ -37,7 +37,7 @@ article{
 	width: 150px;
 	float: right;
 	margin-top: 80px;
-
+}
 
 
 main {
