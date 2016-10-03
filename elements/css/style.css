@@ -4,3 +4,9 @@ couleur tertiaire (background) : #FEFEC5*/
 .nomargin{
     margin:0px;
 }
+.navbar-default .navbar-brand{
+    color:#FF5600;
+}
+.navbar-default .navbar-brand:hover{
+    color: #00AA72;
+}
