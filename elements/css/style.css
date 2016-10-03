@@ -13,6 +13,33 @@ couleur tertiaire (background) : #FEFEC5*/
 }
 
 
+/****article********/
+article{
+	height: 350px;
+	width: 100%;
+
+}
+
+.article{
+	margin-top: 60px;
+	padding-left: 60px;
+
+}
+.img1{
+	height: 150px;
+	width: 350px;
+	float: right;
+	margin-top: 80px;
+	padding-right: 60px;
+}
+.img{
+	height: 150px;
+	width: 150px;
+	float: right;
+	margin-top: 80px;
+
+
+
 main {
 	margin-top: 75px;
 	height: 1500px; /*A MODIFIER LORS DU MERGE*/
