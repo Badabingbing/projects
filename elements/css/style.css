@@ -30,6 +30,10 @@ couleur tertiaire (background) : #FEFEC5*/
 	padding-left: 60px;
 }
 
+.article_page {
+	margin-top: 100px;
+}
+
 .hidden_content {
 	display: none;
 }
@@ -96,6 +100,4 @@ main {
 #presentation1 {
 	display: block;
 }
-article {
-	display: none;
-}
+
