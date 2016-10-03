@@ -20,17 +20,14 @@ couleur tertiaire (background) : #FEFEC5*/
 }
 
 /*///////////////// MAIN ///////////////////*/
-main {
+main{
 	margin-top: 75px;
-	height: 1500px; /*A MODIFIER LORS DU MERGE*/
+	height: 450px; /*A MODIFIER SI BESOIN LORS DU MERGE*/
 }
 
 .EventMomment{
-	/*background-color:#00AA72;
-	margin-top: 10px;*/
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
-
 
 
 /*footer*/
