@@ -10,3 +10,27 @@ couleur tertiaire (background) : #FEFEC5*/
 .navbar-default .navbar-brand:hover{
     color: #00AA72;
 }
+.navbar-default .navbar-nav > li > a {
+    color:#00AA72;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color:#FF5600;
+}
+.icone{
+    color:#FF5600;
+}
+.content{
+    height:500px;
+}
+.footer{
+   background-color: #00AA72;
+}
+.SocialIcone{
+    padding-top:25px;
+}
+.copyright{
+    color:#FEFEC5;
+}
+.copyright p{
+    margin:0px;
+}
