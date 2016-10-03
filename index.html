@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" type="text/css" href="elements/css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="elements/css/bootstrap.css"/>
-<script src="elements/js/jquery-3.1.0.min.js"></script>
+<script src="elements/js/jquery.js"></script>
 <script src="elements/js/bootstrap.min.js"></script>
 <script src="elements/js/npm.min.js"></script>
 
@@ -55,11 +55,10 @@
                 </div>
             </nav>
         </header>
-    </div>
-    
+ 
     <!--main-->
 
-<main class="container-fluid">
+<main>
 	<div class="row">
 		<div class="col-md-7 col-md-offset-1">
 			<div class="row">
@@ -87,22 +86,40 @@
 	</div>
 </main>
 
-   <footer>
-    <div class="row">
-        <div class="col-md-12"></div>
-        </footer>
-    </div>
-
         <!-- fin de votr partie -->
 
     <footer class="row footer">
        <div class="col-md-12">
-        <div class="col-md-9">
-            <div class="col-md-offset-2 col-md-10 text-justify">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nam quaerat incidunt earum quod esse eaque aliquam itaque, ea laudantium delectus, asperiores voluptates, accusamus ipsum inventore est dolorum, veritatis dicta?</p>
-            </div>
-        </div>
-        <div class="col-md-2 col-md-offset-1 SocialIcone">
+       <article id="presentation1" class="col-md-9">
+        <div class="col-md-offset-1 col-md-3 portrait img-circle">
+         </div>
+         <div class="col-md-offset-1 col-md-7 presentation">
+            <div class="col-md-1"></div>
+             <h4 class="col-md-10 text-center">Jane Doe</h4>
+                <div class="col-md-1"><button class="suivant"><i class="fa fa-arrow-right" aria-hidden="true"></i></button> </div>
+
+             <h5 class="col-md-12 text-center"> Ministre de la raclette</h5>
+             <div class="col-md-8 col-md-offset-2"><hr></hr></div>
+             <div class="col-md-12">
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corporis, dolorum sed eius fugiat pariatur explicabo ut, dicta, nihil quibusdam rerum! Est, porro, officia. Totam delectus minima tempore eveniet voluptatibus.</p></div>
+         </div>
+        </article>
+        <article id="presentation2" class="col-md-9 none">
+        <div class="col-md-offset-1 col-md-3 portrait img-circle">
+         </div>
+         <div class="col-md-offset-1 col-md-7 presentation">
+            <div class="col-md-1"><button class="precedent"><i class="fa fa-arrow-left" aria-hidden="true"></i></button></div>
+             <h4 class="col-md-10 text-center">John Doe</h4>
+                <div class="col-md-1"><button class="suivant"><i class="fa fa-arrow-right" aria-hidden="true"></i></button> </div>
+
+             <h5 class="col-md-12 text-center"> Ministre de la raclette</h5>
+             <div class="col-md-8 col-md-offset-2"><hr></hr></div>
+             <div class="col-md-12">
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corporis, dolorum sed eius fugiat pariatur explicabo ut, dicta, nihil quibusdam rerum! Est, porro, officia. Totam delectus minima tempore eveniet voluptatibus.</p></div>
+         </div>
+        </article>
+
+        <div class="col-md-2 col-md-offset-1">
                 <div class="list-group">
                     <a class="list-group-item" href="#"><i class="icone fa fa-users" aria-hidden="true"></i>
 &nbsp;Notre equipe</a>
@@ -118,9 +135,10 @@
                 </div>
         </div>
         </div>
-        <div class="col-md-12 text-center copyright"><p>Site crée par la CodeAcademie</p></div>
+        <div class="col-md-12 copyright"><p>Site crée par la CodeAcademie</p></div>
     </footer>
 
  </div>
+    
 </body>
 </html>

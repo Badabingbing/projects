@@ -19,6 +19,48 @@ couleur tertiaire (background) : #FEFEC5*/
     color:#FF5600;
 }
 
+/****article********/
+
+
+.layout {
+	max-width: 80em;
+	margin: auto;
+}
+
+.article2{
+	height: 350px;
+
+	width: 100%;
+}
+
+.article1{
+	margin-top: 60px;
+	padding-left: 60px;
+}
+
+.hidden_content {
+	display: none;
+}
+
+.img1{
+	height: 150px;
+	width: 350px;
+	float: right;
+	margin-top: 80px;
+	padding-right: 60px;
+}
+.img{
+	height: 150px;
+	width: 150px;
+	float: right;
+	margin-top: 80px;
+}
+
+.lire_plus h4{
+	float: right;
+}
+
+
 /*///////////////// MAIN ///////////////////*/
 main{
 	margin-top: 75px;
@@ -37,14 +79,29 @@ main{
 
 .footer{
    background-color: #00AA72;
-}
-.SocialIcone{
     padding-top:25px;
 }
+
 .copyright{
     color:#FEFEC5;
+    margin-top:20px;
 }
 .copyright p{
     margin:0px;
 }
-
+.portrait{
+    background-image:url("../images/portrait.jpg");
+    height:140px;
+}
+.presentation{
+    color:#FEFEC5;
+}
+#presentation1 {
+	display: block;
+}
+.none {
+	display: none;
+}
+.presentation i{
+    color:#FF5600;
+}
