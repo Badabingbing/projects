@@ -73,6 +73,7 @@ main {
 
 .copyright{
     color:#FEFEC5;
+    margin-top:20px;
 }
 .copyright p{
     margin:0px;
@@ -87,6 +88,9 @@ main {
 #presentation1 {
 	display: block;
 }
-article {
+.none {
 	display: none;
+}
+.presentation i{
+    color:#FEFEC5;
 }
