@@ -1,4 +1,4 @@
-body {
+.layout {
 	margin: auto;
 	max-width: 70em;
 }
@@ -14,4 +14,17 @@ body {
 .article_image {
 	padding-left: 30px;
 	padding-top: 30px;
+
+/*couleur principale : #FF5600
+couleur secondaire : #00AA72
+couleur tertiaire (background) : #FEFEC5*/
+
+.nomargin{
+    margin:0px;
+}
+.navbar-default .navbar-brand{
+    color:#FF5600;
+}
+.navbar-default .navbar-brand:hover{
+    color: #00AA72;
 }
