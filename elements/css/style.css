@@ -15,7 +15,6 @@ couleur tertiaire (background) : #FEFEC5*/
 
 /****article********/
 article{
-	height: 350px;
 	width: 100%;
 
 }
@@ -38,6 +37,9 @@ article{
 	float: right;
 	margin-top: 80px;
 
+.lire_plus h4{
+	float: right;
+}
 
 
 main {
