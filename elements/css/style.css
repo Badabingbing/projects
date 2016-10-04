@@ -62,10 +62,10 @@ couleur tertiaire (background) : #FEFEC5*/
 }
 
 
-/*///////////////// MAIN ///////////////////*/
+/*//////////////////////////// MAIN ////////////////////////////*/
 main{
 	margin-top: 75px;
-	height: 750px; /*A MODIFIER SI BESOIN LORS DU MERGE*/
+	height: 400px; /*A MODIFIER SI BESOIN LORS DU MERGE*/
 }
 
 /*///PRESENTATION EVENEMENTS////*/
@@ -83,6 +83,10 @@ main{
 }
 .nav-tabs{
 	border-bottom: 1px solid #FF5600 !important;
+}
+.nav-tabs > li.active > a{
+	border: 1px solid #FF5600;
+	/*background-color: transparent !important;*/
 }
 /*//////// LES ONGLETS////*/
 .Evenementiels{
@@ -104,14 +108,17 @@ main{
 	width: 100%;
 	padding-top: 20px;
 }
-
-
+.EventIllustrationAvenir{
+	padding-top: 20px;
+}
+.EventIllustrationPast{
+	padding-top: 20px;
+}
 
 /*CHAT*/
 
 .chat{
 	margin-left: 25px;
-	/*padding-left: 10px;*/
 }
 
 /*footer*/
