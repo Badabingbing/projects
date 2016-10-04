@@ -99,6 +99,7 @@ main{
 .portrait{
     background-image:url("../images/portrait.jpg");
     height:140px;
+    margin-top:25px;
 }
 .presentation{
     color:#FEFEC5;
@@ -112,4 +113,7 @@ main{
 }
 .presentation i{
     color:#FF5600;
+}
+.footer h3{
+    color:#FEFEC5;
 }
