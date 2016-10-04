@@ -92,6 +92,7 @@ main{
 .portrait{
     background-image:url("../images/portrait.jpg");
     height:140px;
+    margin-top:25px;
 }
 .presentation{
     color:#FEFEC5;
