@@ -66,23 +66,7 @@ main{
 	margin-top: 75px;
 	height: 750px; /*A MODIFIER SI BESOIN LORS DU MERGE*/
 }
-.EventActually{
-	height: 350px;
-	width: 100%;
-	padding-bottom: 30px;
-}
-.EventActually h3, p {
-	float: left;
-}
-.EventActually img {
-	float: right;
-}
 
-/*
-.EventMomment{
-	padding-bottom: 30px;
-	height: 350px;
-}*/
 
 
 /*CHAT*/
@@ -90,7 +74,7 @@ main{
 /*.chat{
 	margin-left: 0px;
 	padding-left: 10px;
-}*/
+}
 
 /*footer*/
 .icone{
