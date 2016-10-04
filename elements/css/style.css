@@ -29,7 +29,6 @@ couleur tertiaire (background) : #FEFEC5*/
 
 .article2{
 	height: 350px;
-
 	width: 100%;
 }
 
@@ -40,6 +39,10 @@ couleur tertiaire (background) : #FEFEC5*/
 
 .article_page {
 	margin-top: 100px;
+}
+
+.articles_caches {
+	display: none;
 }
 
 .hidden_content {
