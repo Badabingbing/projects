@@ -12,6 +12,12 @@ couleur tertiaire (background) : #FEFEC5*/
     color: #00AA72;
 }
 
+.navbar-default .navbar-nav > li > a {
+    color:#00AA72;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color:#FF5600;
+}
 
 /****article********/
 
@@ -55,32 +61,22 @@ couleur tertiaire (background) : #FEFEC5*/
 }
 
 
-main {
+/*///////////////// MAIN ///////////////////*/
+main{
 	margin-top: 75px;
-	height: 1500px; /*A MODIFIER LORS DU MERGE*/
+	height: 450px; /*A MODIFIER SI BESOIN LORS DU MERGE*/
 }
 
-.EventMomment img{
-	float: right;
-	width: 200px;
+.EventMomment{
+	padding-bottom: 30px;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color:#00AA72;
-}
-.navbar-default .navbar-nav > li > a:hover {
-    color:#FF5600;
-}
+
+/*footer*/
 .icone{
     color:#FF5600;
 }
 
-
-
-
-
-
-/* footer */
 .footer{
    background-color: #00AA72;
     padding-top:25px;
