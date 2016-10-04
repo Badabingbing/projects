@@ -66,14 +66,28 @@ main{
 	margin-top: 75px;
 	height: 750px; /*A MODIFIER SI BESOIN LORS DU MERGE*/
 }
-
-
+.Evenementiels{
+	width: 800px;
+}
+.Event{
+	float: left;
+	height: 200px;
+	padding-top: 20px;
+}
+.EventIllustration{
+	float: right;
+}
+.EventIllustration img{
+	height: 200px;
+	width: auto;
+	padding-top: 20px;
+}
 
 /*CHAT*/
 
-/*.chat{
-	margin-left: 0px;
-	padding-left: 10px;
+.chat{
+	margin-left: 25px;
+	/*padding-left: 10px;*/
 }
 
 /*footer*/
