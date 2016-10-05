@@ -267,3 +267,6 @@ main{
 .blocTexte{
     height:325px;
 }
+.nopadding{
+    padding : 0px;
+}
