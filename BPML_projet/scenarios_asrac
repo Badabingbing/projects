@@ -26,7 +26,7 @@
 - modifier message//DONE pour user/admin/
 
 => utilisateurs
-- supprimer utilisateur
+- supprimer utilisateur //done
 - modifier utilisateur = suppression ou addition de droits
 - changer informations profil
 - consulter profil utilisateur (informations publiques/privées)
