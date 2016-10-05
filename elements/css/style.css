@@ -14,6 +14,7 @@ couleur tertiaire (background) : #FEFEC5*/
 
 .navbar-default .navbar-nav > li > a {
     color:#00AA72;
+
 }
 .navbar-default .navbar-nav > li > a:hover {
     color:#FF5600;
@@ -68,15 +69,152 @@ couleur tertiaire (background) : #FEFEC5*/
 }
 
 
-/*///////////////// MAIN ///////////////////*/
+/*//////////////////////////// MAIN ////////////////////////////*/
 main{
 	margin-top: 75px;
-	height: 450px; /*A MODIFIER SI BESOIN LORS DU MERGE*/
+	height: 400px; /*A MODIFIER SI BESOIN LORS DU MERGE*/
 }
 
-.EventMomment{
-	padding-bottom: 30px;
+/*///PRESENTATION EVENEMENTS////*/
+
+.nav-tabs > li > a{
+	color: #00AA72 !important;
 }
+
+.nav-tabs > li > a:hover{
+	border: none !important;
+}
+
+.nav > li > a:hover{
+	background-color: none !important;
+}
+.nav-tabs{
+	border-bottom: 1px solid #FF5600 !important;
+}
+.nav-tabs > li.active > a{
+	border: 1px solid #FF5600;
+	/*background-color: transparent !important;*/
+}
+/*//////// LES ONGLETS////*/
+.Evenementiels{
+	width: 800px;
+}
+.Event{
+	float: left;
+	height: 400px;
+	padding-top: 20px;
+}
+.Event p {
+	font-size : 25px;
+}
+.EventIllustration{
+	float: right;
+}
+.EventIllustration img{
+	height: 100%;
+	width: 100%;
+	padding-top: 20px;
+}
+.EventIllustrationAvenir{
+	padding-top: 20px;
+}
+.EventIllustrationPast{
+	padding-top: 20px;
+}
+
+/*///////CHAT////////*/
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+.panel-body
+{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+.panel-primary .panel-heading{
+    background-color:#00AA72;
+    border-color:#00AA72;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*footer*/
@@ -117,3 +255,4 @@ main{
 .footer h3{
     color:#FEFEC5;
 }
+

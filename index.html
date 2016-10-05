@@ -19,6 +19,7 @@
 <script src="elements/js/bootstrap.min.js"></script>
 <script src="elements/js/npm.min.js"></script>
 <script src="elements/js/footer.js"></script>
+<script src="elements/js/script.js"></script>
 <!--ANIMATE.CSS-->
 
 <link rel="stylesheet" href="elements/css/animate.min.css">
@@ -49,49 +50,153 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="article.html">Articles</a></li>
                         <li><a href="#">Forum</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="formulaire_contact.html">Contact</a></li>
                         <li><a href="#">Connexion/Deconnexion</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
 
-
+<!--main-->
 <main>
 	<div class="row">
-		<div class="col-md-7 col-md-offset-1">
-			<div class="row">
-				<div class="col-md-7 EventMomment">
-						<h3>Lorem ipsum dolor sit amet.</h3>
-						<p>Consectetur adipiscing elit. In eget sem tortor. Vivamus magna leo, lacinia sed lorem et, pretium dapibus enim.</p>
-						<p><em>Jeudi 20 Novembre 2016 - Rennes</em></p>
-				</div>
-				<div class="col-md-5 EventMomment">
-				<img src="elements/images/Evenements/event-dialogue.jpg"/>
-				</div>
-			<div class="col-md-5 EventMomment">
-				<img src="elements/images/Evenements/event-dialogue.jpg"/>
-				</div>
-			<div class="col-md-7 EventMomment">
-						<h3>Lorem ipsum dolor sit amet.</h3>
-						<p>Consectetur adipiscing elit. In eget sem tortor. Vivamus magna leo, lacinia sed lorem et, pretium dapibus enim.</p>
-						<p><em>Jeudi 20 Novembre 2016 - Rennes</em></p>
-				</div>
-			</div>
-		</div>
-	<div class="col-md-2 col-md-offset-1">
-		flqglkqfblnqerhiùqe
+		<div class="col-md-7 col-md-offset-1 Evenementiels">
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#home">Evènement actuel</a></li>
+    <li><a href="#menu1">Evènement à venir</a></li>
+    <li><a href="#menu2">Evènement passée</a></li>
+  </ul>
+
+<div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+        <div class="col-md-7 Event">
+            <h3><strong>TITLE</strong></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-md-5 EventIllustration">
+            <img src="elements/images/Evenements/event-dialogue.jpg" class="image-responsive" />
+        </div>
+
+    </div>
+    <div id="menu1" class="tab-pane fade EventAvenir">
+        <div class="col-md-7 PresentationEvent">
+            <h3>TITLE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-md-5 EventIllustrationAvenir">
+            <img src="elements/images/Evenements/event-dialogue.jpg" class="image-responsive" />
+        </div>
+    </div>
+    <div id="menu2" class="tab-pane fade EventPast">
+        <div class="col-md-7 PresentationEvent">
+            <h3>TITLE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-md-5 EventIllustrationPast">
+            <img src="elements/images/Evenements/event-dialogue.jpg" class="image-responsive" />
+        </div>
+    </div>
+
+ </div>
 	</div>
+
+    <!--CHAT-->
+
+<div class="chat col-md-3 col-md-offset-1">
+             <div class="panel panel-primary">
+                <div class="panel-heading" id="accordion">
+                    <span class="glyphicon glyphicon-comment"></span> Chat
+                    <div class="btn-group pull-right">
+                        <a type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                    </div>
+                </div>
+  <div class="panel-collapse collapse" id="collapseOne">
+                <div class="panel-body">
+                    <ul class="chat">
+                        <li class="left clearfix"><span class="chat-img pull-left">
+                            <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <strong class="primary-font">Jack Sparrow</strong> <small class="pull-right text-muted">
+                                        <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+                                    dolor, quis ullamcorper ligula sodales.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="right clearfix"><span class="chat-img pull-right">
+                            <img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small>
+                                    <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+                                    dolor, quis ullamcorper ligula sodales.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="left clearfix"><span class="chat-img pull-left">
+                            <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <strong class="primary-font">Jack Sparrow</strong> <small class="pull-right text-muted">
+                                        <span class="glyphicon glyphicon-time"></span>14 mins ago</small>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+                                    dolor, quis ullamcorper ligula sodales.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="right clearfix"><span class="chat-img pull-right">
+                            <img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>15 mins ago</small>
+                                    <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+                                    dolor, quis ullamcorper ligula sodales.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-footer">
+                    <div class="input-group">
+                        <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                        <span class="input-group-btn">
+                            <button class="btn btn-warning btn-sm" id="btn-chat">
+                                Send</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
 	</div>
 </main>
 
-        <!-- fin de votr partie -->
+
+        <!-- footer -->
 
     <footer class="row footer">
       <div class="col-md-12"><h3>Notre equipe</h3></div>
        <div class="col-md-12">
        <article id="presentation1" class="col-md-9">
-        <div class="col-md-offset-1 col-md-3 portrait img-circle">
+        <div class="col-md-offset-1 col-md-3 portrait img-circle img-responsive">
          </div>
          <div class="col-md-offset-1 col-md-7 presentation">
             <div class="col-md-1"></div>
@@ -105,7 +210,7 @@
          </div>
         </article>
         <article id="presentation2" class="col-md-9 none">
-        <div class="col-md-offset-1 col-md-3 portrait img-circle">
+        <div class="col-md-offset-1 col-md-3 portrait img-circle img-responsive">
          </div>
          <div class="col-md-offset-1 col-md-7 presentation">
             <div class="col-md-1"><button class="precedent"><i class="fa fa-arrow-left" aria-hidden="true"></i></button></div>
@@ -119,7 +224,7 @@
          </div>
         </article>
         <article id="presentation3" class="col-md-9 none">
-        <div class="col-md-offset-1 col-md-3 portrait img-circle">
+        <div class="col-md-offset-1 col-md-3 portrait img-circle img-responsive">
          </div>
          <div class="col-md-offset-1 col-md-7 presentation">
             <div class="col-md-1"><button class="precedent"><i class="fa fa-arrow-left" aria-hidden="true"></i></button></div>
@@ -133,7 +238,7 @@
          </div>
         </article>
         <article id="presentation4" class="col-md-9 none">
-        <div class="col-md-offset-1 col-md-3 portrait img-circle">
+        <div class="col-md-offset-1 col-md-3 portrait img-circle img-responsive">
          </div>
          <div class="col-md-offset-1 col-md-7 presentation">
             <div class="col-md-1"><button class="precedent"><i class="fa fa-arrow-left" aria-hidden="true"></i></button></div>
