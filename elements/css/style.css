@@ -20,52 +20,8 @@ couleur tertiaire (background) : #FEFEC5*/
     color:#FF5600;
 }
 
-/****article********/
 
 
-.layout {
-	max-width: 80em;
-	margin: auto;
-}
-
-.article2{
-	height: 350px;
-	width: 100%;
-}
-
-.article1{
-	padding-left: 60px;
-}
-
-.article_page {
-	margin-top: 100px;
-}
-
-.articles_caches {
-	display: none;
-}
-
-.hidden_content {
-	display: none;
-}
-
-.img1{
-	background-image: url(../images/Evenements/event-dialogue.jpg);
-    height:200px;
-    background-size:cover;
-}
-.img{
-	background-image: url(../images/Evenements/event-dialogue.jpg);
-    height:200px;
-    background-size:cover;
-}
-
-.lire_plus h4{
-	float: right;
-}
-.rowtop{
-    padding-top:75px;
-}
 
 
 /*//////////////////////////// MAIN ////////////////////////////*/
