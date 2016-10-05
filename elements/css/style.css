@@ -267,6 +267,11 @@ main{
 .blocTexte{
     height:325px;
 }
-.nopadding{
-    padding : 0px;
+.footerIcone{
+    color:white;
+    height:20px;
+}
+footer p{
+    color:white;
+    margin:0px;
 }
