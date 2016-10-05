@@ -1,0 +1,35 @@
+-------- Projets : ---------
+
+- soumettre un projet (utilisateurs connectés)
+- voter pour ou contre un projet (utilisateurs connectés)
+
+
+-------- Articles : --------- 
+
+- publier un article (uniquement bureau de l'assoc)
+- trier les articles (visiteurs ou utilisateurs co.)
+
+
+-------- Chat : -------------
+
+- lire le chat avec un élu
+- participer au chat avec un élu
+
+
+-------- Forum : -------------
+
+- lire le forum (tout le monde ou uniquement utilisateurs ?)
+
+=> messages 
+- poster un message sur le forum
+- supprimer message sur le forum
+- modifier message
+
+=> utilisateurs
+- supprimer utilisateur
+- modifier utilisateur = suppression ou addition de droits
+- changer informations profil
+- consulter profil utilisateur (informations publiques/privées)
+
+
+
