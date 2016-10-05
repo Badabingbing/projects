@@ -34,7 +34,6 @@ couleur tertiaire (background) : #FEFEC5*/
 }
 
 .article1{
-	margin-top: 60px;
 	padding-left: 60px;
 }
 
@@ -51,21 +50,21 @@ couleur tertiaire (background) : #FEFEC5*/
 }
 
 .img1{
-	height: 150px;
-	width: 350px;
-	float: right;
-	margin-top: 80px;
-	padding-right: 60px;
+	background-image: url(../images/Evenements/event-dialogue.jpg);
+    height:200px;
+    background-size:cover;
 }
 .img{
-	height: 150px;
-	width: 150px;
-	float: right;
-	margin-top: 80px;
+	background-image: url(../images/Evenements/event-dialogue.jpg);
+    height:200px;
+    background-size:cover;
 }
 
 .lire_plus h4{
 	float: right;
+}
+.rowtop{
+    padding-top:75px;
 }
 
 
@@ -226,6 +225,10 @@ main{
    background-color: #00AA72;
     padding-top:25px;
 }
+.equipe{
+   background-color: #00AA72;
+    padding-top:75px;
+}
 
 .copyright{
     color:#FEFEC5;
@@ -252,7 +255,33 @@ main{
 .presentation i{
     color:#FF5600;
 }
-.footer h3{
+.equipe h3{
     color:#FEFEC5;
 }
-
+.Accueil{
+    padding-top:75px;
+    background-color:white;
+}
+.textePresentation h2{
+    color:#FF5600;
+}
+.textePresentation h3{
+    color:#00AA72;
+    padding-bottom:25px;
+    text-decoration:underline;
+    text-decoration-color: #00AA72;
+}
+.blocTexte{
+    height:325px;
+}
+.footerIcone{
+    color:white;
+    height:20px;
+}
+footer p{
+    color:white;
+    margin:0px;
+}
+.contact{
+    height:400px;
+}
