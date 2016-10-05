@@ -18,11 +18,14 @@
 <script src="elements/js/jquery.js"></script>
 <script src="elements/js/bootstrap.min.js"></script>
 <script src="elements/js/npm.min.js"></script>
-<script src="elements/js/footer.js"></script>
 <script src="elements/js/script.js"></script>
+
 <!--ANIMATE.CSS-->
 
 <link rel="stylesheet" href="elements/css/animate.min.css">
+
+<!--FONT FAMILY-->
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
 
 <!--FONT AWESOME-->
 
@@ -44,10 +47,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">Nom_Site</a>
+                    <a class="navbar-brand" href="acceuil.html">Nom_Site</a>
                 </div>
                 <div class="collapse navbar-collapse" id="MenuNavbar">
                     <ul class="nav navbar-nav navbar-right">
+                       <li><a href="event.html">Evenements</a></li>
                         <li><a href="article.html">Articles</a></li>
                         <li><a href="#">Forum</a></li>
                         <li><a href="formulaire_contact.html">Contact</a></li>
@@ -70,31 +74,68 @@
 
 <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
+    <!--Article 1-->
         <div class="col-md-7 Event">
-            <h3><strong>TITLE</strong></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3><strong>HELLO WORLD</strong></h3>
+            	<em><p class="date">Par <u>Jean-Luc</u> - 10 Octobre 2016 - Champs Libres(Rennes)</p></em>
+                <p class="TextArticle">Lorem ipsum dolor sit amet, consectetur, dolore magna aliqua.Nunc pharetra at velit ac feugiat. Etiam vitae ligula vel urna cursus luctus. Phasellus venenatis ac est sit amet dictum. Suspendisse dictum ipsum sit amet urna tristique, tincidunt tempor urna efficitur. Proin quis tortor vitae felis condimentum posuere. Donec facilisis fermentum ex vitae aliquet.</p>
         </div>
         <div class="col-md-5 EventIllustration">
             <img src="elements/images/Evenements/event-dialogue.jpg" class="image-responsive" />
         </div>
-
+    <!--Article 2-->
+            <div class="col-md-7 Event">
+            <h3><strong>HELLO WORLD</strong></h3>
+            	<em><p class="date">Par <u>Jean-Luc</u> - 25 Octobre 2016 - Le Liberté(Rennes)</p></em>
+                <p class="TextArticle">Lorem ipsum dolor sit amet, consectetur, dolore magna aliqua.Nunc pharetra at velit ac feugiat. Etiam vitae ligula vel urna cursus luctus. Phasellus venenatis ac est sit amet dictum. Suspendisse dictum ipsum sit amet urna tristique, tincidunt tempor urna efficitur. Proin quis tortor vitae felis condimentum posuere. Donec facilisis fermentum ex vitae aliquet.</p>
+        </div>
+        <div class="col-md-5 EventIllustration">
+            <img src="elements/images/Evenements/work.jpg" class="image-responsive" />
+        </div>    
+    <!--Article 3-->
+        <div class="col-md-7 Event">
+            <h3><strong>HELLO WORLD</strong></h3>
+            	<em><p class="date">Par <u>Jean-Luc</u> - 30 Octobre 2016 - TNB(Rennes)</p></em>
+                <p class="TextArticle">Lorem ipsum dolor sit amet, consectetur, dolore magna aliqua.Nunc pharetra at velit ac feugiat. Etiam vitae ligula vel urna cursus luctus. Phasellus venenatis ac est sit amet dictum. Suspendisse dictum ipsum sit amet urna tristique, tincidunt tempor urna efficitur. Proin quis tortor vitae felis condimentum posuere. Donec facilisis fermentum ex vitae aliquet.</p>
+        </div>
+        <div class="col-md-5 EventIllustration">
+            <img src="elements/images/Evenements/woman-working.jpg" class="image-responsive" />
+        </div>
     </div>
     <div id="menu1" class="tab-pane fade EventAvenir">
         <div class="col-md-7 PresentationEvent">
-            <h3>TITLE</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3>HELLO WORLD</h3>
+            	<em><p class="date">Par <u>Jean-Luc</u> - 10 Octobre 2016 - Champs Libres(Rennes)</p></em>
+                <p class="TextArticle">Lorem ipsum dolor sit amet, consectetur, dolore magna aliqua.Nunc pharetra at velit ac feugiat. Etiam vitae ligula vel urna cursus luctus. Phasellus venenatis ac est sit amet dictum. Suspendisse dictum ipsum sit amet urna tristique, tincidunt tempor urna efficitur. Proin quis tortor vitae felis condimentum posuere. Donec facilisis fermentum ex vitae aliquet.</p>
         </div>
         <div class="col-md-5 EventIllustrationAvenir">
-            <img src="elements/images/Evenements/event-dialogue.jpg" class="image-responsive" />
+            <img src="elements/images/Evenements/laptop-office.jpg" class="image-responsive" />
+        </div>
+        <div class="col-md-7 PresentationEvent">
+            <h3>HELLO WORLD</h3>
+            	<em><p class="date">Par <u>Jean-Luc</u> - 10 Octobre 2016 - Champs Libres(Rennes)</p></em>
+                <p class="TextArticle">Lorem ipsum dolor sit amet, consectetur, dolore magna aliqua.Nunc pharetra at velit ac feugiat. Etiam vitae ligula vel urna cursus luctus. Phasellus venenatis ac est sit amet dictum. Suspendisse dictum ipsum sit amet urna tristique, tincidunt tempor urna efficitur. Proin quis tortor vitae felis condimentum posuere. Donec facilisis fermentum ex vitae aliquet.</p>
+        </div>
+        <div class="col-md-5 EventIllustrationAvenir">
+            <img src="elements/images/Evenements/laptop-office.jpg" class="image-responsive" />
         </div>
     </div>
     <div id="menu2" class="tab-pane fade EventPast">
         <div class="col-md-7 PresentationEvent">
-            <h3>TITLE</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3>HELLO WORLD</h3>
+            	<em><p class="date">Par <u>Jean-Luc</u> - 10 Octobre 2016 - Champs Libres(Rennes)</p></em>
+                <p class="TextArticle">Lorem ipsum dolor sit amet, consectetur, dolore magna aliqua.Nunc pharetra at velit ac feugiat. Etiam vitae ligula vel urna cursus luctus. Phasellus venenatis ac est sit amet dictum. Suspendisse dictum ipsum sit amet urna tristique, tincidunt tempor urna efficitur. Proin quis tortor vitae felis condimentum posuere. Donec facilisis fermentum ex vitae aliquet.</p>
         </div>
-        <div class="col-md-5 EventIllustrationPast">
-            <img src="elements/images/Evenements/event-dialogue.jpg" class="image-responsive" />
+        <div class="col-md-5 EventIllustrationAvenir">
+            <img src="elements/images/Evenements/laptop-office.jpg" class="image-responsive" />
+        </div>
+    	        <div class="col-md-7 PresentationEvent">
+            <h3>HELLO WORLD</h3>
+            	<em><p class="date">Par <u>Jean-Luc</u> - 10 Octobre 2016 - Champs Libres(Rennes)</p></em>
+                <p class="TextArticle">Lorem ipsum dolor sit amet, consectetur, dolore magna aliqua.Nunc pharetra at velit ac feugiat. Etiam vitae ligula vel urna cursus luctus. Phasellus venenatis ac est sit amet dictum. Suspendisse dictum ipsum sit amet urna tristique, tincidunt tempor urna efficitur. Proin quis tortor vitae felis condimentum posuere. Donec facilisis fermentum ex vitae aliquet.</p>
+        </div>
+        <div class="col-md-5 EventIllustrationAvenir">
+            <img src="elements/images/Evenements/laptop-office.jpg" class="image-responsive" />
         </div>
     </div>
 
@@ -193,85 +234,20 @@
         <!-- footer -->
 
     <footer class="row footer">
-      <div class="col-md-12"><h3>Notre equipe</h3></div>
-       <div class="col-md-12">
-       <article id="presentation1" class="col-md-9">
-        <div class="col-md-offset-1 col-md-3 portrait img-circle img-responsive">
-         </div>
-         <div class="col-md-offset-1 col-md-7 presentation">
-            <div class="col-md-1"></div>
-             <h4 class="col-md-10 text-center">Jane Doe</h4>
-                <div class="col-md-1"><button class="suivant"><i class="fa fa-arrow-right" aria-hidden="true"></i></button> </div>
+        <div class="col-md-4 copyright"><p>Site crée par la CodeAcademie</p></div>
+        <div class="col-md-2 col-md-offset-4"><p> l'ASRAC </br>Adresse :
+10, avenue de Guyenne
+35000 Rennes</p></div>
+        <div class="col-md-2"><p>Contactez-nous:</p>
+        <a href="#"><i class="footerIcone fa fa-envelope-o" aria-hidden="true"></i>
+        <a href="#"><i class="footerIcone fa fa-facebook-official" aria-hidden="true"></i>
+        <a href="#"><i class="footerIcone fa fa-twitter-square" aria-hidden="true"></i>
+        <a  href="#"><i class="footerIcone fa fa-users" aria-hidden="true"></i>
 
-             <h5 class="col-md-12 text-center"> Ministre de la raclette</h5>
-             <div class="col-md-8 col-md-offset-2"><hr></hr></div>
-             <div class="col-md-12">
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corporis, dolorum sed eius fugiat pariatur explicabo ut, dicta, nihil quibusdam rerum! Est, porro, officia. Totam delectus minima tempore eveniet voluptatibus.</p></div>
-         </div>
-        </article>
-        <article id="presentation2" class="col-md-9 none">
-        <div class="col-md-offset-1 col-md-3 portrait img-circle img-responsive">
-         </div>
-         <div class="col-md-offset-1 col-md-7 presentation">
-            <div class="col-md-1"><button class="precedent"><i class="fa fa-arrow-left" aria-hidden="true"></i></button></div>
-             <h4 class="col-md-10 text-center">John Doe</h4>
-                <div class="col-md-1"><button class="suivant"><i class="fa fa-arrow-right" aria-hidden="true"></i></button> </div>
-
-             <h5 class="col-md-12 text-center"> Ministre de la raclette</h5>
-             <div class="col-md-8 col-md-offset-2"><hr></hr></div>
-             <div class="col-md-12">
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corporis, dolorum sed eius fugiat pariatur explicabo ut, dicta, nihil quibusdam rerum! Est, porro, officia. Totam delectus minima tempore eveniet voluptatibus.</p></div>
-         </div>
-        </article>
-        <article id="presentation3" class="col-md-9 none">
-        <div class="col-md-offset-1 col-md-3 portrait img-circle img-responsive">
-         </div>
-         <div class="col-md-offset-1 col-md-7 presentation">
-            <div class="col-md-1"><button class="precedent"><i class="fa fa-arrow-left" aria-hidden="true"></i></button></div>
-             <h4 class="col-md-10 text-center">Alex Doe</h4>
-                <div class="col-md-1"><button class="suivant"><i class="fa fa-arrow-right" aria-hidden="true"></i></button> </div>
-
-             <h5 class="col-md-12 text-center"> Ministre de la raclette</h5>
-             <div class="col-md-8 col-md-offset-2"><hr></hr></div>
-             <div class="col-md-12">
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corporis, dolorum sed eius fugiat pariatur explicabo ut, dicta, nihil quibusdam rerum! Est, porro, officia. Totam delectus minima tempore eveniet voluptatibus.</p></div>
-         </div>
-        </article>
-        <article id="presentation4" class="col-md-9 none">
-        <div class="col-md-offset-1 col-md-3 portrait img-circle img-responsive">
-         </div>
-         <div class="col-md-offset-1 col-md-7 presentation">
-            <div class="col-md-1"><button class="precedent"><i class="fa fa-arrow-left" aria-hidden="true"></i></button></div>
-             <h4 class="col-md-10 text-center">Zoubida Doe</h4>
-                <div class="col-md-1"> </div>
-
-             <h5 class="col-md-12 text-center"> Ministre de la raclette</h5>
-             <div class="col-md-8 col-md-offset-2"><hr></hr></div>
-             <div class="col-md-12">
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corporis, dolorum sed eius fugiat pariatur explicabo ut, dicta, nihil quibusdam rerum! Est, porro, officia. Totam delectus minima tempore eveniet voluptatibus.</p></div>
-         </div>
-        </article>
-
-        <div class="col-md-2 col-md-offset-1">
-                <div class="list-group">
-                    <a class="list-group-item" href="#"><i class="icone fa fa-users" aria-hidden="true"></i>
-&nbsp;Notre equipe</a>
-                    <a class="list-group-item" href="#"><i class="icone fa fa-twitter-square" aria-hidden="true"></i>
-
-&nbsp; Twitter</a>
-                    <a class="list-group-item" href="#"><i class="icone fa fa-facebook-official" aria-hidden="true"></i>
-
-&nbsp;Facebook</a>
-                    <a class="list-group-item" href="#"><i class="icone fa fa-envelope-o" aria-hidden="true"></i>
-
-&nbsp; Contactez-nous</a>
-                </div>
-        </div>
-        </div>
-        <div class="col-md-12 copyright"><p>Site crée par la CodeAcademie</p></div>
+&nbsp; </a></div>
     </footer>
 
  </div>
-    
+
 </body>
 </html>
