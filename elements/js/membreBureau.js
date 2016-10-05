@@ -17,3 +17,4 @@ var numero_ID = 1;
         $(numero_nom_ID).css("display", "block");
     });
 });
+// defilement des membres du bureau avec fleche
