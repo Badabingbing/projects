@@ -1,0 +1,23 @@
+#page_article{
+	margin-top: 60px;
+
+}
+
+#image1_article{
+	height: 200px;
+	width: 200px;
+}
+.image2_article{
+	height: 100px;
+	width: 100px;
+}
+#filrer{
+	height: 200px;
+	border: 2px solid black;
+}
+
+#archive{
+	height: 300px;
+	border: 2px solid black;
+	margin-top: 50px;
+}
