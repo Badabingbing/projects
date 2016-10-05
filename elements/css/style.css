@@ -70,8 +70,9 @@ couleur tertiaire (background) : #FEFEC5*/
 
 /*//////////////////////////// MAIN ////////////////////////////*/
 main{
-	margin-top: 75px;
+	margin-top: 70px;
 	height: auto; /*A MODIFIER SI BESOIN LORS DU MERGE*/
+	font-family: 'Merriweather', 'Times New Roman';
 }
 
 /*///PRESENTATION EVENEMENTS////*/
@@ -106,10 +107,10 @@ main{
 	margin-top: 0px;
 }
 .date{
-	font-size: 15px;
+	font-size: 14px;
 }
 .TextArticle{
-	font-size : 20px;
+	font-size : 18px;
 	text-align: justify;
 	line-height: 110%;
 }
