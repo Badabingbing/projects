@@ -4,14 +4,13 @@
 - voter pour ou contre un projet (utilisateurs connectés)
 
 
--------- Articles : --------- 
+-------- Articles : ---------
 
 - publier un article (uniquement bureau de l'assoc)
 - trier les articles (visiteurs ou utilisateurs co.)
 
-
 -------- Chat : -------------
-
+- Connection de l'Elu
 - lire le chat avec un élu
 - participer au chat avec un élu
 
@@ -19,8 +18,8 @@
 -------- Forum : -------------
 
 - lire le forum (tout le monde ou uniquement utilisateurs ?)
-
-=> messages 
+-
+=> messages
 - poster un message sur le forum
 - supprimer message sur le forum
 - modifier message
@@ -30,6 +29,3 @@
 - modifier utilisateur = suppression ou addition de droits
 - changer informations profil
 - consulter profil utilisateur (informations publiques/privées)
-
-
-
