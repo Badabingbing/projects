@@ -9,22 +9,21 @@
 - publier un article (uniquement bureau de l'assoc)// done
 -supp article // done
 -modif article // done
-- trier les articles (visiteurs ou utilisateurs co.)
+- trier les articles (visiteurs ou utilisateurs co.)// done
 
 -------- Chat : -------------
 - Connection de l'Elu
 - lire le chat avec un élu
 - participer au chat avec un élu
 
-
 -------- Forum : -------------
 
 - lire le forum (tout le monde ou uniquement utilisateurs ?)
--
+
 => messages
-- poster un message sur le forum
-- supprimer message sur le forum
-- modifier message
+- poster un message sur le forum// DONE pour user/admin/
+- supprimer message sur le forum//DONE pour user/admin/
+- modifier message//DONE pour user/admin/
 
 => utilisateurs
 - supprimer utilisateur
