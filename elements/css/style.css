@@ -219,6 +219,10 @@ main{
    background-color: #00AA72;
     padding-top:25px;
 }
+.equipe{
+   background-color: #00AA72;
+    padding-top:75px;
+}
 
 .copyright{
     color:#FEFEC5;
@@ -244,7 +248,22 @@ main{
 .presentation i{
     color:#FF5600;
 }
-.footer h3{
+.equipe h3{
     color:#FEFEC5;
 }
-
+.Accueil{
+    padding-top:75px;
+    background-color:white;
+}
+.textePresentation h2{
+    color:#FF5600;
+}
+.textePresentation h3{
+    color:#00AA72;
+    padding-bottom:25px;
+    text-decoration:underline;
+    text-decoration-color: #00AA72;
+}
+.blocTexte{
+    height:325px;
+}
