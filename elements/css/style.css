@@ -70,8 +70,9 @@ couleur tertiaire (background) : #FEFEC5*/
 
 /*//////////////////////////// MAIN ////////////////////////////*/
 main{
-	margin-top: 75px;
-	height: 400px; /*A MODIFIER SI BESOIN LORS DU MERGE*/
+	margin-top: 70px;
+	height: auto; /*A MODIFIER SI BESOIN LORS DU MERGE*/
+	font-family: 'Merriweather', 'Times New Roman';
 }
 
 /*///PRESENTATION EVENEMENTS////*/
@@ -92,7 +93,6 @@ main{
 }
 .nav-tabs > li.active > a{
 	border: 1px solid #FF5600;
-	/*background-color: transparent !important;*/
 }
 /*//////// LES ONGLETS////*/
 .Evenementiels{
@@ -100,19 +100,27 @@ main{
 }
 .Event{
 	float: left;
-	height: 400px;
+	height: auto;
 	padding-top: 20px;
 }
-.Event p {
-	font-size : 25px;
+.Event h3{
+	margin-top: 0px;
+}
+.date{
+	font-size: 14px;
+}
+.TextArticle{
+	font-size : 18px;
+	text-align: justify;
+	line-height: 110%;
 }
 .EventIllustration{
 	float: right;
+	padding-top: 20px; 
 }
 .EventIllustration img{
 	height: 100%;
 	width: 100%;
-	padding-top: 20px;
 }
 .EventIllustrationAvenir{
 	padding-top: 20px;
